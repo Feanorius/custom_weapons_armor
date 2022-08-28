@@ -1,6 +1,7 @@
 package net.feanorius.custom_weapons_armor;
 
 import com.mojang.logging.LogUtils;
+import net.feanorius.custom_weapons_armor.item.ModdedItems;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -18,6 +19,8 @@ public class CustomWeaponsAndArmor
 
     public CustomWeaponsAndArmor() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+
+        ModdedItems.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
