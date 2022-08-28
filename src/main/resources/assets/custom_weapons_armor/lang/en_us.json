@@ -1,4 +1,10 @@
 {
   "item.custom_weapons_armor.iron_spear": "Iron spear",
-  "item.custom_weapons_armor.iron_halberd": "Iron halberd"
+  "item.custom_weapons_armor.iron_halberd": "Iron halberd",
+  "item.custom_weapons_armor.steel_spear": "Steel spear",
+  "item.custom_weapons_armor.steel_halberd": "Steel halberd",
+  "item.custom_weapons_armor.steel_hammer": "Steel hammer",
+  "item.custom_weapons_armor.steel_mace": "Steel mace",
+  "item.custom_weapons_armor.steel_saber": "Steel saber",
+  "item.custom_weapons_armor.steel_war_axe": "Steel war axe"
 }
